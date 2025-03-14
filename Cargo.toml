@@ -18,13 +18,13 @@ default = []
 serialize = ["dep:serde", "bevy/serialize"]
 
 [dependencies]
-bevy = { version = "0.15", default-features = false }
+bevy = { version = "0.16.0-dev", default-features = false }
 
 # Serialization
 serde = { version = "1.0", default-features = false, optional = true }
 
 [dev-dependencies]
-bevy = { version = "0.15", default-features = false, features = [
+bevy = { version = "0.16.0-dev", default-features = false, features = [
     "bevy_core_pipeline",
     "bevy_text",
     "bevy_ui",
